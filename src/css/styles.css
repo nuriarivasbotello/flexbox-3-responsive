@@ -25,3 +25,128 @@ body {
   margin: 0;
   background-color: #111;
 }
+.main {
+  width: 736px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'League Spartan', sans-serif;
+  border-radius: 20px;
+  background-color: rgb(242, 242, 242);
+}
+.blue {
+  width: 369px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  background-image: linear-gradient(
+    rgba(119, 85, 255, 1),
+    rgba(47, 44, 233, 1)
+  );
+}
+.title {
+  font-size: 30px;
+  font-family: 'League Spartan', sans-serif;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  background-image: linear-gradient(rgba(77, 33, 201, 1), transparent);
+}
+.number {
+  font-size: 75px;
+}
+.total {
+  font-size: 20px;
+}
+.great {
+  font-size: 40px;
+}
+.text {
+  position: relative;
+  top: -30px;
+  text-align: center;
+  font-size: 20px;
+}
+.white {
+  width: 368px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: rgba(238, 130, 238, 0);
+}
+.summary {
+  color: rgba(48, 59, 89, 1);
+  font-size: 30px;
+}
+.categories {
+  width: 288px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0);
+}
+.card {
+  width: 288px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.position {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reaction {
+  background-color: #ff555566;
+}
+.name-reaction {
+  color: rgba(255, 85, 85, 1);
+}
+
+.memory {
+  background-color: #ffb01e7b;
+}
+.name-memory {
+  color: rgba(255, 178, 30, 1);
+}
+
+.verbal {
+  background-color: rgba(0, 187, 143, 0.439);
+}
+.name-verbal {
+  color: rgba(0, 187, 143, 1);
+}
+.visual {
+  background-color: #1125d674;
+}
+.name-visual {
+  color: rgba(17, 37, 214, 1);
+}
+.continue {
+  width: 288px;
+  height: 56px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  text-decoration: none;
+  padding: 10px 30px;
+  color: white;
+  background-color: rgba(48, 59, 89, 1);
+}
